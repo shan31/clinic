@@ -1,0 +1,15 @@
+body,html {
+    height: 100%;
+}
+.block_login_content{
+  background-color: #fff;
+  background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.block_background{
+  background: url('../images/bg_image.jpg');
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
