@@ -1,70 +1,60 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>CLI</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
-
-<body>
-    <div class="block_background h-100">
-        <div class="block_login d-flex flex-row justify-content-center align-items-center h-100">
-            <div class="d-flex justify-content-center align-self-center align-items-center block_login_content col-4">
-                <form class="p-5 w-100" method="post" action="" id="login_form">
-                    <div class="login_form " id="login_form">
-                    <h1 class="text-center">Welcome</h1>
-                    <!-- <span class="login_form_avatar d-flex justify-content-center"><img src="images/avatar-01.jpg" alt="User_Avatar" class="rounded-circle"></span> -->
-                    <div class="form-group">
+   <head>
+      <title>CLI</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   </head>
+   <body>
+      <div class="block_background h-100">
+         <div class="block_login d-flex flex-row justify-content-center align-items-center h-100">
+            <div class="d-flex justify-content-center align-self-center align-items-center block_login_content  col-sm-12 col-md-6 col-lg-3">
+               <form class="p-5 w-100 " method="post" action="" id="login_form">
+                  <div class="login_form " id="login_form">
+                     <h1 class="text-center">Welcome</h1>
+                     <!-- <span class="login_form_avatar d-flex justify-content-center"><img src="images/avatar-01.jpg" alt="User_Avatar" class="rounded-circle"></span> -->
+                     <div class="form-group">
                         <label for="userEmail">Email</label>
                         <input type="text" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Enter email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
+                     </div>
+                     <div class="form-group">
                         <label for="userPassword">Password</label>
                         <input type="password" class="form-control" id="userPassword" placeholder="Password">
-
-                    </div>
-                    <div class="form-check float-left w-100">
+                     </div>
+                     <div class="form-check float-left w-100">
                         <input type="checkbox" class="form-check-input" id="showhidePassword">
                         <label class="form-check-label" for="showhidePassword">Show Password</label>
-                    </div>
-                    <div class="form-check forgot_password float-right w-100 pb-3">
+                     </div>
+                     <div class="form-check forgot_password float-right w-100 pb-3">
                         <a href="#" class="float-right text-success">Forgot password?</a>
-                    </div>
-                    <input type="submit" value="Submit" class="btn btn-primary w-100" />
-                    </div>
-
-                    
-                </form>
-                <form class="p-5 w-100 d-none">
-                                        <div class="forgot_password_form " id="forgot_password_form">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <div class="form-group">
+                     </div>
+                     <input type="submit" value="Submit" class="btn btn-primary w-100" />
+                  </div>
+               </form>
+               <form class="p-5 w-100 d-none">
+                  <div class="forgot_password_form " id="forgot_password_form">
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                     </div>
+                     <div class="form-group">
                         <label for="exampleInputPassword1">New Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-
-                    </div>
-                                    <div class="form-group">
+                     </div>
+                     <div class="form-group">
                         <label for="exampleInputPassword1">Confirm New Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-
-                    </div>
-                    <button type="submit" class="btn btn-primary float-left w-100">Submit</button>
-                    </div>
-                </form>
+                     </div>
+                     <button type="submit" class="btn btn-primary float-left w-100">Submit</button>
+                  </div>
+               </form>
             </div>
-
-        </div>
-    </div>
-
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+         </div>
+      </div>
+   </body>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script type="text/javascript" src="js/index.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>
